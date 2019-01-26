@@ -1,0 +1,614 @@
+/* Peninsula Hearing Care screen CSS - (C) OptimalWorks.net */
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+html
+{
+	background-color: #ececec;
+}
+
+body
+{
+	min-width: 770px;
+	font-family: arial, helvetica, freesans, sans-serif;
+	font-size: 80%;
+	color: #333;
+	background: #fff url("../images/back-page.jpg") 50% 20px no-repeat;
+}
+
+body#home-page
+{
+	background-image: url("../images/back.jpg");
+}
+
+/* layout */
+#page, #footer div.inner
+{
+	position: relative;
+	width: 770px;
+	margin: 0 auto;
+}
+
+/* header */
+#header
+{
+	padding: 3px 0 34px 0;
+}
+
+#header p
+{
+	display: inline;
+	float: right;
+	font-size: 2em;
+	padding: 2px 50px;
+	color: #143d8d;
+	background: url("../images/phone.png") 24px 50% no-repeat;
+}
+
+/* menu */
+#header ul
+{
+	width: 476px;
+	height: 68px;
+	list-style-type: none;
+	padding: 0;
+	margin: 27px 0 0 0;
+	background: url("../images/menu.jpg") 0 0 no-repeat;
+	overflow: hidden;
+}
+
+#header li
+{
+	display: inline;
+	float: left;
+	width: 119px;
+	height: 68px;
+	padding: 0;
+	margin: 0;
+	background-image: none;
+}
+
+#header li a
+{
+	display: block;
+	height: 100%;
+	font-size: 1em;
+	line-height: 1.1em;
+	padding: 0 8px;
+	text-decoration: none;
+	color: #c3def4;
+	outline: 0 none;
+}
+
+#header li#home a { padding-left: 19px; }
+
+#header li a strong
+{
+	display: block;
+	visibility: hidden;
+	height: 29px;
+}
+
+#header li a:hover, #header li a:focus,
+#home-page #header li#home a, #service-page #header li#service a, #about-page #header li#about a, #contact-page #header li#contact a
+{
+	color: #fff;
+	background: url("../images/menu.jpg") 0 -68px no-repeat;
+}
+
+#service-page #header li#service a, #header li#service a:hover, #header li#service a:focus { background-position: -119px -68px; }
+#about-page #header li#about a, #header li#about a:hover, #header li#about a:focus { background-position: -238px -68px; }
+#contact-page #header li#contact a, #header li#contact a:hover, #header li#contact a:focus { background-position: -357px -68px; }
+
+/* main content */
+#content
+{
+	display: inline;
+	float: left;
+	width: 100%;
+	position: relative;
+	min-height: 360px;
+	height: auto !important;
+	height: 360px;
+}
+
+/* footer */
+#footer
+{
+	clear: both;
+	font-size: 0.85em;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 15px;
+	color: #777;
+	background: #ececec url("../images/shade-footer.png") 0 0 repeat-x;
+	border-top: 1px solid #c8c8c8;
+}
+
+#footer p
+{
+	margin: 0.4em 0;
+}
+
+#footer a:link, #footer a:visited
+{
+	text-decoration: underline;
+	color: #777;
+}
+
+#footer a:hover, #footer a:focus { color: #999; }
+
+/* columns */
+div.main, div.second
+{
+	position: relative;
+	display: inline;
+	float: left;
+	left: 100%;
+	width: 401px;
+	padding-bottom: 40px;
+	margin-left: -720px;
+}
+
+div.second
+{
+	width: 219px;
+	padding-top: 80px;
+	margin-left: -269px;
+}
+
+#home-page div.second, #footer div.second { padding-top: 0; }
+
+/* home page styles */
+.start
+{
+	height: 220px;
+}
+
+.start h1
+{
+	font-size: 1.6em;
+	line-height: 1.1;
+	margin: 0 0 12px 0;
+	color: #fff;
+	text-shadow: #333 1px 1px 4px;
+}
+
+.start h1 strong
+{
+	display: block;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+
+/* button */
+a.button:link, a.button:visited
+{
+	display: block;
+	width: 219px;
+	height: 47px;
+	font-size: 1.5em;
+	line-height: 47px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0;
+	color: #dae5d9;
+	background: url("../images/button.png") 0 0 no-repeat;
+	outline: 0 none;
+}
+
+a.button:hover, a.button:focus
+{
+	text-decoration: none;
+	color: #fff;
+	background-position: 0 -47px;
+}
+
+/* main image */
+img.imgmain
+{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+}
+
+img#hearing-model
+{
+	top: -60px;
+	right: -35px;
+}
+
+img#hearing-aid
+{
+	top: -200px;
+	right: -10px;
+}
+
+img#laurie-mckenna
+{
+	top: -200px;
+	right: -30px;
+}
+
+img#teignmouth
+{
+	top: -200px;
+	right: -30px;
+}
+
+/* bshaa */
+a#bshaa:link, a#bshaa:visited, a#bshaa:hover, a#bshaa:focus
+{
+	display: block;
+	width: 7em;
+	font-size: 0.9em;
+	text-align: left;
+	text-decoration: none;
+	padding: 12px 78px 12px 0;
+	margin: 10px auto;
+	color: #777;
+	background: url("../images/bshaa.png") 100% 50% no-repeat;
+}
+
+a#bshaa:link strong, a#bshaa:visited strong { font-weight: normal; }
+a#bshaa:hover strong, a#bshaa:focus strong { font-weight: bold; color: #048; }
+
+/* hpc */
+a#hpc
+{
+	display: block;
+	width: 159px;
+	margin: 26px auto;
+}
+
+a#hpc img { display: block; }
+
+/* typography */
+h1, h2
+{
+	clear: both;
+	font-size: 1.6em;
+	font-weight: normal;
+	padding-bottom: 1px;
+	margin-bottom: 0.1em;
+	color: #02549a;
+}
+
+h1 { font-size: 2em; }
+h2 { margin-top: 1.5em; }
+
+p
+{
+	line-height: 1.3em;
+	margin: 0 0 1em 0;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 1em 0 1.2em 2em;
+}
+
+li
+{
+	padding: 0 0 0 20px;
+	margin: 0.5em 0;
+	background: url("../images/bullet.png") 0 0.15em no-repeat;
+}
+
+ul#manufacturers, ul#organisations
+{
+	list-style-type: none;
+	margin: 1em 0 2em 0;
+}
+
+ul#manufacturers li, ul#organisations li
+{
+	text-align: center;
+	padding: 0;
+	margin: 8px 0;
+	background-image: none;
+}
+
+blockquote
+{
+	font-size: 1.3em;
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+	color: #3b7cb3;
+	background: url("../images/quote.jpg") 100% 0 no-repeat;
+}
+
+blockquote p { line-height: 1.2em; margin: 0; }
+
+blockquote p.cite { font-size: 0.8em; text-align: right; color: #888; }
+
+acronym { border: 0 none; }
+
+a:link, a:visited
+{
+	text-decoration: underline;
+	color: #048;
+}
+
+a:hover, a:focus
+{
+	text-decoration: underline;
+	color: #28c;
+}
+
+a img { border: 0 none; }
+
+/* tables */
+table
+{
+	width: 100%;
+	font-size: 1em;
+	margin: 1em auto;
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+td, th
+{
+	text-align: left;
+	padding: 1px 2px;
+}
+
+th
+{
+	font-weight: bold;
+	background-color: #bdf;
+}
+
+tr:nth-child(odd) td
+{
+	background-color: #f5f5f5;
+}
+
+tr th:nth-child(even), tr td:nth-child(even)
+{
+	text-align: right;
+}
+
+tr:hover td
+{
+	background-color: #cec;
+}
+
+table#pricelist strong
+{
+	display: none;
+}
+
+table#pricelist td.price:before
+{
+	content: "\00A3";
+}
+
+/* hCard microformat */
+div.vcard
+{
+	font-size: 1.2em;
+	margin: 0 auto 1em auto;
+	padding: 4px 8px;
+	background-color: #d8e9ec;
+	border-left: 10px solid #3af;
+	border-top: 1px solid #3af;
+	border-right: 1px solid #05a;
+	border-bottom: 1px solid #05a;
+}
+
+div.vcard p
+{
+	font-weight: bold;
+	margin: 0;
+}
+
+div.vcard ol, div.vcard li
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	background-image: none;
+}
+
+div.vcard dl
+{
+	margin: 0.2em 0;
+}
+
+div.vcard dt
+{
+	display: none;
+}
+
+div.vcard dl.tel dd.value
+{
+	position: relative;
+	padding-left: 18px;
+	background: url("../images/icons/phone.png") 0 50% no-repeat;
+}
+
+div.vcard a.email
+{
+	position: relative;
+	display: block;
+	font-size: 0.7em;
+	padding: 2px 0 2px 18px;
+	background: url("../images/icons/email.png") 0 50% no-repeat;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+a.add:link, a.contact:link,
+a.add:visited, a.contact:visited
+{
+	position: relative;
+	display: block;
+	padding-left: 54px;
+	margin-bottom: 2em;
+	background: url("../images/icons/add.png") 36px 50% no-repeat;
+}
+
+a.contact:link, a.contact:visited { background-image: url("../images/icons/form.png"); }
+
+div.vcard a, div.vcard a:visited, div.vcard a:hover { color: #444; text-decoration: none; }
+
+/* forms */
+fieldset
+{
+	clear: both;
+	padding-bottom: 10px;
+	margin: 1em 0;
+	border: 1px solid #ccc;
+	border-bottom-color: #eee;
+	border-right-color: #eee;
+}
+
+legend
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 4px 0.3em;
+	margin: 0 6px;
+	color: #02549a;
+}
+
+ol.form
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol.form li
+{
+	clear: both;
+	padding: 0;
+	margin: 2px 0 !important;
+	background-image: none;
+}
+
+ol.form li.text
+{
+	margin: 0.5em 0 !important;
+}
+
+ol.form p.help
+{
+	display: none;
+	font-size: 0.85em;
+	font-style: italic;
+	margin: 0.5em 0 0 25%;
+}
+
+ol.form li.error p.help { display: block; }
+
+ol.form label
+{
+	display: inline;
+	float: left;
+	width: 23%;
+	text-align: right;
+	line-height: 1.5em;
+	margin-right: 2%;
+}
+
+ol.form .checkbox label
+{
+	display: inline;
+	float: left;
+	width: 70%;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1.4em;
+	margin: 0 0 0 6px;
+}
+
+input, select, textarea
+{
+	width: 70%;
+	font-family: arial, helvetica, helv, freesans, sans-serif;
+	font-size: 1em;
+	padding: 1px 2px;
+	margin: 0;
+	color: #444;
+	background-color: #eff2f5;
+	border: 1px solid #02549a;
+}
+
+input:focus, textarea:focus, select:focus
+{
+	color: #000;
+	background-color: #fff;
+	border-color: #222;
+}
+
+.checkbox input
+{
+	display: inline;
+	float: left;
+	width: auto;
+	padding: 0;
+	margin: 0.3ex 0 0 25%;
+	border: 0 none;
+	color: #000;
+	background: transparent none !important;
+	outline: 0 none;
+}
+
+ol.form li.button
+{
+	padding: 6px 0 6px 25%;
+}
+
+ol.form li.button input
+{
+	display: block;
+	width: 219px;
+	height: 47px;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	color: #dae5d9;
+	background: transparent url("../images/button.png") 0 0 no-repeat;
+	border: 0 none;
+	cursor: pointer;
+}
+
+ol.form li.button input:hover, ol.form li.button input:focus
+{
+	color: #fff;
+	background-position: 0 -47px;
+}
+
+.inpmed { width: 40%; }
+.error { color: #a00; }
+.error label { font-weight: bold; }
+
+/* map */
+#map
+{
+	display: none;
+	height: 280px;
+	margin: 0 0 1em 0;
+	border: 1px solid #666;
+}
+
+#map.active
+{
+	display: block;
+}
+
+#map a, #map span { display: none; }

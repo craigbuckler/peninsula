@@ -1,0 +1,299 @@
+/* Peninsula Hearing Care print CSS - (C) OptimalWorks.net */
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	font-family: arial, helvetica, freesans, sans-serif;
+	font-size: 80%;
+	margin: 10px;
+	color: #000;
+	background-color: #fff;
+}
+
+/* hidden */
+#header ul, #map, #organisations, img.imgmain, #footer .second, a.add, ol.form li.button, .noprint
+{
+	display: none;
+}
+
+#header p
+{
+	display: inline;
+	float: right;
+	font-size: 2em;
+	font-style: italic;
+}
+
+#footer
+{
+	text-align: center;
+	padding: 1em 0;
+	margin: 1em 0;
+	border-top: 1px dotted #000;
+}
+
+#footer p
+{
+	margin: 0.2em 0;
+}
+
+.start h1
+{
+	font-size: 1.6em;
+	line-height: 1.1;
+}
+
+.start h1 strong
+{
+	display: block;
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+/* bshaa */
+a#bshaa
+{
+	display: block;
+	text-align: center;
+}
+
+a#bshaa strong { display: block; }
+
+#content a#bshaa:after { content: none; }
+
+/* typography */
+h1, h2
+{
+	clear: both;
+	font-size: 1.6em;
+	font-weight: normal;
+	padding-bottom: 1px;
+	margin: 1.5em 0 0.1em 0;
+}
+
+h1 { font-size: 2em; }
+
+p
+{
+	line-height: 1.3em;
+	margin: 0 0 1em 0;
+}
+
+ul
+{
+	list-style-type: square;
+	margin: 1em 0 1.2em 2em;
+}
+
+li
+{
+	padding: 0;
+	margin: 0.5em 0;
+}
+
+ul#manufacturers
+{
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+}
+
+ul#manufacturers li
+{
+	display: inline;
+	float: left;
+	width: 33%;
+	height: 100px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+ul#manufacturers li a
+{
+	text-decoration: none;
+}
+
+#content ul#manufacturers li a:after { display: block; content: attr(href); }
+
+blockquote
+{
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: center;
+	padding: 1em;
+	color: #666;
+}
+
+blockquote p { line-height: 1.2em; margin: 0; }
+
+blockquote p.cite { font-size: 0.8em; text-align: right; color: #888; }
+
+acronym { border: 0 none; }
+
+a:link, a:visited, a:hover, a:focus
+{
+	text-decoration: underline;
+	color: #000;
+}
+
+#content a:after { content: " (" attr(href) ")"; }
+#content a.email:after { content: none; }
+
+a img { border: 0 none; }
+
+/* tables */
+table
+{
+	width: 100%;
+	font-size: 1em;
+	margin: 1em auto;
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+td, th
+{
+	text-align: left;
+	padding: 1px 2px;
+	border-bottom: 1px dotted #999;
+}
+
+th
+{
+	font-weight: bold;
+}
+
+tr th:nth-child(even), tr td:nth-child(even)
+{
+	text-align: right;
+}
+
+table#pricelist td.price:before
+{
+	content: "\00A3";
+}
+
+/* hCard microformat */
+div.vcard
+{
+	width: 19em;
+	font-size: 1.2em;
+	padding: 8px 15px;
+	margin: 1em auto;
+	border: 1px solid #000;
+}
+
+div.vcard p
+{
+	font-weight: bold;
+	margin: 0;
+}
+
+div.vcard ol, div.vcard li
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	background-image: none;
+}
+
+div.vcard dl
+{
+	margin: 0.2em 0;
+}
+
+div.vcard dt
+{
+	clear: left;
+	display: inline;
+	float: left;
+	width: 3em;
+}
+
+div.vcard a, div.vcard a:visited, div.vcard a:hover { text-decoration: none; }
+#content div.vcard a:after { content: none; }
+
+/* forms */
+fieldset
+{
+	clear: both;
+	margin: 2em 0;
+	border: 0 none;
+}
+
+legend
+{
+	display: none;
+}
+
+ol.form
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol.form li
+{
+	clear: both;
+	padding: 0;
+	margin: 2px 0 !important;
+	background-image: none;
+}
+
+ol.form p.help
+{
+	display: none;
+}
+
+ol.form label
+{
+	display: inline;
+	float: left;
+	width: 23%;
+	text-align: right;
+	line-height: 1.5em;
+	margin-right: 2%;
+}
+
+ol.form .checkbox label
+{
+	display: inline;
+	float: left;
+	width: 70%;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1.4em;
+	margin: 0 0 0 6px;
+}
+
+input, select, textarea
+{
+	width: 70%;
+	font-family: arial, helvetica, helv, freesans, sans-serif;
+	font-size: 1.5em;
+	padding: 1px 2px;
+	margin: 0;
+	border: 0 none;
+	border-bottom: 1px dashed #333;
+}
+
+.checkbox input
+{
+	display: inline;
+	float: left;
+	width: auto;
+	padding: 0;
+	margin: 0.3ex 0 0 25%;
+	border: 0 none;
+	outline: 0 none;
+}
+
+.inpmed { width: 40%; }

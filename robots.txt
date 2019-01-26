@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: http://www.peninsula-hearing-care.co.uk/sitemap.xml
+Disallow: /logs
+Disallow: /tacs
+Disallow: /template

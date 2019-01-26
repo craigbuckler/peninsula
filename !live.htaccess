@@ -1,0 +1,13 @@
+# contact file
+AddType text/x-vcard vcf
+
+# error handler
+errordocument 404 /error.php
+
+# rewrite default URL
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\.peninsula-hearing-care\.co\.uk [NC]
+RewriteRule ^/?(.*)$ http://www.peninsula-hearing-care.co.uk/$1 [L,R=301]
+
+# rewrite filename to filename.php
+RewriteRule ^/?([a-z0-9-_]+)$ $1.php [NC,L]
