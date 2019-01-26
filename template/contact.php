@@ -87,39 +87,39 @@ if (post('submit') != '') {
 
 	// spam validation
 	$spam_error = 'details again and press submit in a few seconds. A technical error occurred';
-	
+
 	// rogue GET values [rg]
 	if ($error == '' && count($_GET) > 0) $error = $spam_error . ' [rg]';
-	
+
 	// rogue POST values [rp]
 	if ($error == '') {
 		$valid = '[submit][key][name][telephone][email][address][query]';
 		foreach ($_POST as $key => $value) if (strpos($valid, "[$key]") === false) $error = $spam_error . ' [rp]';
 	}
-	
+
 	// user agent [ua], referrer [br], link check [lc], and key check [kc]
 	if ($error == '') {
 		if (!isset($_SERVER['HTTP_USER_AGENT']) || trim($_SERVER['HTTP_USER_AGENT']) == '') $error = $spam_error . ' [ua]';
 		if (!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] != 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']) $error = $spam_error . ' [br]';
-		
+
 		$l = 'http';
 		$lc = substr_count($name, $l) + substr_count($telephone, $l) + substr_count($address, $l) + substr_count($query, $l);
 		if ($lc > 0) $error = $spam_error . ' [lc]';
-		
+
 		$key = post('key', '', 30);
 		if ($key == '' || (microtime_int() - (int) preg_replace('/\D/', '', encode($key))) < 10) $error = $spam_error . ' [kc]';
 	}
-	
+
 	if ($error != '') {
-	
+
 		// show error
 		$p = strrpos($error, ',');
 		if ($p !== false) $error = substr($error, 0, $p+1) . ' and ' . substr($error, $p+2);
 		echo "<p class=\"error\">Please enter your $error.</p>\n";
-		
+
 	}
 	else {
-	
+
 		// send email
 		if ($email != '') $header = "From: $name <$email>\n";
 		else $header = "From: $website <$salesemail>\n";
@@ -150,7 +150,7 @@ if (post('submit') != '') {
 			fwrite($fp, $res);
 			fclose($fp);
 		}
-		
+
 	}
 
 }
@@ -158,7 +158,7 @@ if (post('submit') != '') {
 // show form
 if (!$success) {
 
-	if ($error == '') echo '<p>Please contact us by telephone 01626 879209, email <a href="contact-devon-hearing-centre" class="email">info {at} peninsulahearingcare dot co dot uk</a>, or visit us in Teignmouth.</p><div id="map"></div><p>Alternatively, please complete our enquiry form and we will call you.</p>';
+	if ($error == '') echo '<p>Please contact us by telephone <a href="tel:+44-1626-879209">01626 879209</a>, email <a href="contact-devon-hearing-centre" class="email">info {at} peninsulahearingcare dot co dot uk</a>, or visit us in Teignmouth.</p><div id="map"></div><p>Alternatively, please complete our enquiry form and we will call you.</p>';
 
 ?>
 

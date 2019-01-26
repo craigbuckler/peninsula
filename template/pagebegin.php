@@ -69,7 +69,7 @@ $COMPANY = 'Peninsula Hearing Care, Devon hearing aids';
 	<div id="header">
 
 		<!-- telephone -->
-		<p>01626 879209</p>
+		<p><a href="tel:+44-1626-879209" style="text-decoration:none">01626 879209</a></p>
 
 		<!-- logo -->
 		<a href="[[home]]"><img id="logo" src="images/peninsiula-hearing-care.png" width="292" height="108" alt="Peninsula Hearing Care" title="Peninsula Hearing Aids and Care Services" /></a>

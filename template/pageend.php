@@ -19,7 +19,7 @@
 				echo $ml;
 		?>]]</p>
 
-		<p>01626 879 209 | <a href="[[<?php echo $page['contact']; ?>]]" class="email">info {at} peninsulahearingcare dot co dot uk</a></p>
+		<p><a href="tel:+44-1626-879209">01626 879 209</a> | <a href="[[<?php echo $page['contact']; ?>]]" class="email">info {at} peninsulahearingcare dot co dot uk</a></p>
 
 		<p>Registered office: 46 Hyde Road, Paignton, Devon TQ4 5BY</p>
 
