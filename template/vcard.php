@@ -8,7 +8,7 @@
 	</ol>
 	<dl class="tel">
 		<dt class="type" title="telephone">tel:</dt>
-		<dd class="value" title="telephone">01626 879 209</dd>
+		<dd class="value" title="telephone"><a href="tel:+44-1626-879209">01626 879 209</a></dd>
 	</dl>
 	<dl>
 		<dt>email:</dt>

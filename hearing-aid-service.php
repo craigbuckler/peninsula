@@ -29,7 +29,33 @@
 
 	<p>Initial consultation to fitting for custom made instruments is usually as little as 2 weeks. For some open fit hearing aids, a next day fitting is possible.</p>
 
-	<p>Please <a href="contact-devon-hearing-centre">contact us today to arrange your free hearing test</a>.</p>
+	<p>Please <a href="contact-devon-hearing-centre">contact us to arrange your free hearing test</a>.</p>
+
+	<h2 id="microsuction">Microsuction Ear Wax Removal Clinic</h2>
+
+	<p>Both Laurie and Seamus are fully trained in ear wax removal using Microsuction.</p>
+
+	<p>Ear wax removal by Microsuction is a no fuss, safe and pain free method of removal using a fine suction tube to gently remove excess wax from the canal.</p>
+
+	<p>When ear wax builds up in the ear it can lead to earache, hearing loss, feeling of fullness, tinnitus and irritation. If you have experienced any of these symptoms and would like a free check and or require ear wax removal in South Devon <a href="contact-devon-hearing-centre">contact our ear wax removal clinic in Teignmouth</a> for immediate relief.</p>
+
+	<table id="pricelist" summary="microsuction price list">
+
+	<thead>
+		<tr><th>Microsuction</th><th>&pound;price</th></tr>
+	</thead>
+
+	<tbody>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">no wax found</span></td><td class="price" itemprop="price">0.00</td></tr>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">one ear</span></td><td class="price" itemprop="price">40.00</td></tr>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">both ears</span></td><td class="price" itemprop="price">65.00</td></tr>
+	</tbody>
+
+	</table>
+
+	<p>We provide a free examination of the ear canal to establish whether wax is present. No wax - no charge.</p>
+
+	<p>It is advisable to use olive oil for 24-48 hours prior to the procedure.</p>
 
 	<h2 id="prices">Hearing Aid Prices and Aftercare</h2>
 
@@ -48,67 +74,15 @@
 
 	<table id="pricelist" summary="hearing aid price list">
 
+	<thead>
+		<tr><th>Typical hearing aid</th><th>&pound;price</th></tr>
+	</thead>
+
 	<tbody>
-		<tr><th>GN Resound</th><th>&pound;price</th></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Verso 9</span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Verso 7</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Alera 9 (+ &pound;100 for wireless)</span></td><td class="price" itemprop="price">1,395</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Alera 7 (+ &pound;100 for wireless)</span></td><td class="price" itemprop="price">995</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Alera 5 (+ &pound;100 for wireless)</span></td><td class="price" itemprop="price">795</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Alera 4 (+ &pound;100 for wireless)</span></td><td class="price" itemprop="price">695</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Vea 3</span></td><td class="price" itemprop="price">695</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Vea 2</span></td><td class="price" itemprop="price">595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">GN Resound</strong> <span class="fn" itemprop="model">Vea 1</span></td><td class="price" itemprop="price">495</td></tr>
-		<tr><th>Oticon</th><th></th></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Alta Pro (H330)</span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Alta (H310)</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Acto Pro (K140)</span></td><td class="price" itemprop="price">1,095</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Acto (K130)</span></td><td class="price" itemprop="price">895</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Ino Pro (K90)</span></td><td class="price" itemprop="price">695</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Ino (K70)</span></td><td class="price" itemprop="price">495</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Intiga 10 and i10 (D100 and Di100)</span></td><td class="price" itemprop="price">1,495</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Intiga 8 and i8 (D80 and Di80)</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Intiga 6 (D60)</span></td><td class="price" itemprop="price">1,095</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Chilli SP9 (PW70)</span></td><td class="price" itemprop="price">1,495</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Chilli SP7 (PW50)</span></td><td class="price" itemprop="price">1,195</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Oticon</strong> <span class="fn" itemprop="model">Chilli SP5 (PW30)</span></td><td class="price" itemprop="price">895</td></tr>
-		<tr><th>Phonak</th><th></th></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Audeo Q90 </span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Audeo Q70</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Audeo Q50</span></td><td class="price" itemprop="price">995</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Audeo Q30</span></td><td class="price" itemprop="price">595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Virto/Bolero Q90 and Nano</span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Virto/Bolero Q70 and Nano</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Virto/Bolero Q50 and Nano</span></td><td class="price" itemprop="price">995</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Naida Q30 SP/UP/CRT</span></td><td class="price" itemprop="price">595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Naida Q90 SP/UP/CRT</span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Naida Q70 SP/UP/CRT</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Naida Q50 SP/UP/CRT</span></td><td class="price" itemprop="price">995</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">Dalia</span></td><td class="price" itemprop="price">595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">CROS Transmitter ITE</span></td><td class="price" itemprop="price">795</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Phonak</strong> <span class="fn" itemprop="model">CROS Transmitter BTE</span></td><td class="price" itemprop="price">695</td></tr>
-		<tr><th>Starkey</th><th></th></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">X-Series i110 including Wi, Xino and 3 Series</span></td><td class="price" itemprop="price">1,395</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">X-Series i90 including Wi, Xino and 3 Series</span></td><td class="price" itemprop="price">1,195</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">X-Series i70 including Wi, Xino and 3 Series</span></td><td class="price" itemprop="price">995</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">Ignite 30, Tour 30 and Xino</span></td><td class="price" itemprop="price">795</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">Ignite 20, Tour 20 and Xino</span></td><td class="price" itemprop="price">595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">Soundlens X Series 110 IIC</span></td><td class="price" itemprop="price">1,895</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Starkey</strong> <span class="fn" itemprop="model">Soundlens X Series 70 IIC</span></td><td class="price" itemprop="price">1,495</td></tr>
-		<tr><th>Unitron</th><th></th></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Unitron</strong> <span class="fn" itemprop="model">Quantum Pro</span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Unitron</strong> <span class="fn" itemprop="model">Quantum 20</span></td><td class="price" itemprop="price">1,495</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Unitron</strong> <span class="fn" itemprop="model">Quantum 12</span></td><td class="price" itemprop="price">1,195</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Unitron</strong> <span class="fn" itemprop="model">Quantum 6</span></td><td class="price" itemprop="price">895</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Unitron</strong> <span class="fn" itemprop="model">Quantum E</span></td><td class="price" itemprop="price">495</td></tr>
-		<tr><th>Widex</th><th></th></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Dream 440 Passion/Fusion/ITE</span></td><td class="price" itemprop="price">1,695</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Dream 330 Passion/Fusion/ITE</span></td><td class="price" itemprop="price">1,395</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Dream 220 Passion/Fusion/ITE</span></td><td class="price" itemprop="price">1,195</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Dream 110 Passion/Fusion/ITE</span></td><td class="price" itemprop="price">995</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Clear 440 Passion/Fusion/Super</span></td><td class="price" itemprop="price">1,595</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Clear 330 Passion/Fusion</span></td><td class="price" itemprop="price">1,295</td></tr>
-		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><strong class="brand" itemprop="brand">Widex</strong> <span class="fn" itemprop="model">Clear 220 Passion/Fusion/Super</span></td><td class="price" itemprop="price">1,095</td></tr>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">entry level</span></td><td class="price" itemprop="price">650 - 1,000</td></tr>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">standard</span></td><td class="price" itemprop="price">1,000 - 1,400</td></tr>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">advanced</span></td><td class="price" itemprop="price">1,400 - 1,600</td></tr>
+		<tr class="hproduct" itemscope="itemscope" itemtype="http://schema.org/Product"><td><span class="fn" itemprop="model">premium</span></td><td class="price" itemprop="price">1,600 - 1,900</td></tr>
 	</tbody>
 
 	</table>
@@ -149,19 +123,19 @@
 		<li>Noise-protection products and impartial advice</li>
 		<li>Industrial Audiometry</li>
 	</ul>
-	
+
 	<blockquote>
 		<p>It is a most wonderful thing to be able to hear properly again. I can never thank you enough for all your time and professionalism. Please accept my sincere thanks for what you have done for me.</p>
 		<p class="cite">Mr O, Teignmouth</p>
 	</blockquote>
-	
+
 	<blockquote>
 		<p>my hearing aids are incredibly light and so comfortable that I forget I am wearing them</p>
 		<p class="cite">Mrs M, Dawlish</p>
 	</blockquote>
-	
-	
-	
+
+
+
 	<blockquote>
 		<p>thank you for your considerate and sympathetic advice</p>
 		<p class="cite">Mrs G, Bovey Tracey</p>
